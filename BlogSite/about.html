@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="style-sheet"
+    href="style.css" />
+    <link rel="functionality"
+    href="app.js"/>
+    <title>Webby</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Prompt', sans-serif;
+            color: aliceblue;
+            background: #202731;
+        }
+
+        section {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 400px;
+            padding: 100px 20vw;
+        }
+        .blue {
+            background: #3c31dd;
+        }
+        .red {
+            background: #dd3f31;
+        }
+        .curve{
+            position: absolute;
+            height: 225px;
+            width: 100px;
+            bottom: 0;
+        }
+        .curve::before {
+            content: '';
+            display: block;
+            position: absolute;
+            border-radius: 100% 50%;
+            width: 55%;
+            height: 100%;
+            background-color: #202731;
+            transform: translate(85%, 60%);
+        }
+        .curve::after {
+            content: '';
+            display: block;
+            position: absolute;
+            border-radius: 100% 50%;
+            width: 55%;
+            height: 100%;
+            background-color: #3c31dd;
+            transform: translate(-4%, 40%);
+            z-index: -1;
+        }  
+
+
+    </style>
+
+
+</head>
+<body>
+    
+    <div class="root">
+        <nav>
+            <ul>
+                <li><a href= "index.html">Home</a></li>
+                <li><a href= "about.html">About</a></li>
+                <li><a href= "contact.html">Contact</a><li>
+            </ul>
+        </nav>
+    
+        
+
+
+<h1>Anthony's Journey</h1>
+
+<h2>Who is Anthony?</h2>
+<article>
+    <section class="blue">
+    <label for="My Past"></label>
+    <h1><em>My Past</em></h1>
+    <p>My Beginning was not that of a typical software programmer, developer, or engineer. i began to find a strong intrest and passion
+        in programming since senior year of highschool, i was not as dedicated to the craft of coding as i am now due to the fact i had
+        a dream of becoming a professional soccer player, Unfortunatly that dream was not a reality , i was able to be apart of
+        my junior colleges soccer team though at <u><strong>CERRITOS COMMUNITY COLLEGE </strong></u> which taught many valuable lessons that i still carry with 
+        me  to this day such as:
+        <li>Leadership</li>
+        <li>Effective Communication</li>
+        <li>Humility</li>
+        <li>Patience</li>
+        <li>Effective Decision-Making</li> 
+    </p>
+    
+        <aside>
+        <h5>During my time at cerritos college while pursuing my Computer Science Degree with a minor in Buisness i was in process of creating many of the low-level projects
+        that are featured in  my Git-Hub that with time my projects have evolved in complexity and utility. </h5>
+    </aside>
+    
+   
+<div class="curve"></div>
+</section>
+
+  <section> 
+<label for="My Present"> </label>
+    <h1><em>My Present</em></h1>
+    <p>Currently i am working at <mark><u><em>SpaceX</em></u></mark> i am learning from many professionals that are very knowledgable, passionate and talented at their  craft. One of which
+        stands out the most is my mentor <em> Daniel Choi</em> who  has helped guided me significantly , i have learned so much about the industry and what  it  actually takes
+        to become a succesful software engineer , and he has geared me in  the right path to  be able to  achieve that dream. there have been many  others that have taught me so many  things
+        and have offered their knowledge and made me a more knowledgable and better person like 
+        <li>Arniel Joseph Torres (Mechanical Engineer) Specialist in Starlink</li>
+        <li>Rohan Mehta (Propulsion Engineer)</li>
+        <li>Jacob Dikinson (Software Enginner)</li>
+        <li>Sydney Baker (Mechanical Engineer) Specialist in Starlink</li>
+        <li>And so many  more </li>
+        i beleive what makes spacex so special besides the mission itself (making life multi-planetary,  providing internet to those that need it the most, etc ) is the people that work within the company
+        , everyone is willing to teach you something new and everyone is passionate, knowledgable, and talented at their craft which i find amazing, i couldnt think of a better work enviorment like SpaceX
+        , i have not met one person  that is willing to take a little bit of time out of their day to teach you something new.
+    </p>
+</section> 
+
+<section>
+
+
+    <label for="My Future"></label>
+    <h1><em> My Future</em></h1>
+    <p>i hope to acheive longevity at SpaceX and contribute as much to the mission as i possibly can, i also hope to grow as a person and learn as much as i possibly
+        can from everyone in SpaceX, I have learned many valuable lessons working at spacex that i beleive i will carry with me going forward with my career. the type 
+        of enviorment spacex offers is truly abundant with resources and learning oppurtunities.
+
+
+        Apart from working in a company that makes such a significant difference in todays world i plan on making a difference myself by creating  utility projects that help the  
+        majority of the people such as:
+        <li>Contributing to Healthcare industry using A.I / Machine learning </li>
+        <li>Contributing to spaces that are often overlooked by major companys via app / services/ websites for a affordable price</li>
+    
+    
+    </p>
+
+</section> 
+    <figure>
+        <img src="IMG_0442.jpg" width="333px" alt="Peace"/>
+        <figcaption> FROM SOCCER PLAYER TO SOFTWARE FANATIC </figcaption>
+     </figure>
+        
+    
+
+
+   
+</article>
+
+<footer>
+    <em>
+        <strong>Anthony Vega</strong>
+    </em>
+</footer>
+
+
+
+
+
+</body>
+</html>
